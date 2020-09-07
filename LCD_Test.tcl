@@ -1,0 +1,36 @@
+	set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+	set_global_assignment -name ENABLE_INIT_DONE_OUTPUT OFF
+	
+		set_location_assignment PIN_28 -to sysrs_key
+	set_location_assignment PIN_23 -to clk
+	set_location_assignment PIN_104 -to sysrs
+	set_location_assignment PIN_118 -to CS1
+	set_location_assignment PIN_115 -to WR
+	set_location_assignment PIN_116 -to RD
+	set_location_assignment PIN_117 -to DSP_Data[7]
+	set_location_assignment PIN_127 -to DSP_Data[6]
+	set_location_assignment PIN_128 -to DSP_Data[5]
+	set_location_assignment PIN_133 -to DSP_Data[4]
+	set_location_assignment PIN_134 -to DSP_Data[3]
+	set_location_assignment PIN_135 -to DSP_Data[2]
+	set_location_assignment PIN_137 -to DSP_Data[1]
+	set_location_assignment PIN_138 -to DSP_Data[0]
+	set_location_assignment PIN_139 -to DSP_Address[5]
+	set_location_assignment PIN_141 -to DSP_Address[4]
+	set_location_assignment PIN_142 -to DSP_Address[3]
+	set_location_assignment PIN_143 -to DSP_Address[2]
+	set_location_assignment PIN_144 -to DSP_Address[1]
+	set_location_assignment PIN_145 -to DSP_Address[0]
+	set_location_assignment PIN_58 -to lcd_data[0]
+	set_location_assignment PIN_59 -to lcd_data[1]
+	set_location_assignment PIN_60 -to lcd_data[2]
+	set_location_assignment PIN_61 -to lcd_data[3]
+	set_location_assignment PIN_63 -to lcd_data[4]
+	set_location_assignment PIN_64 -to lcd_data[5]
+	set_location_assignment PIN_67 -to lcd_data[6]
+	set_location_assignment PIN_68 -to lcd_data[7]
+	set_location_assignment PIN_57 -to lcd_e
+	set_location_assignment PIN_56 -to lcd_rs
+	set_location_assignment PIN_99 -to lcd_rw
+	set_location_assignment PIN_28 -to sysrst
+	set_location_assignment PIN_182 -to update
